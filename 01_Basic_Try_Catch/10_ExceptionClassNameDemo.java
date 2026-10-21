@@ -12,3 +12,10 @@ public class ExceptionClassNameDemo {
         System.out.println("Program continues");
     }
 }
+
+/*
+Code	                             Result
+e.getClass()	                Class information
+e.getClass().getSimpleName()	ArithmeticException
+e.getMessage()	                / by zero
+*/
